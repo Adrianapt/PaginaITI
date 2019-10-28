@@ -39,12 +39,12 @@
 <body>
 
 	<!-- Main navbar -->
-	<div class="navbar navbar-expand-md navbar-dark">
+	<!--div class="navbar navbar-expand-md navbar-dark">
 		<div class="navbar-brand">
 			<a href="index2.php.html" class="d-inline-block">
 				<img src="global_assets/images/logo_light.png" alt="">
 			</a>
-		</div>
+		</div-->
 
 		<div class="d-md-none">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-mobile">
@@ -335,7 +335,7 @@
 				<li class="nav-item dropdown dropdown-user">
 					<a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
 						<img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
-						<span>Victoria</span>
+						<span>Adriana P.</span>
 					</a>
 
 					<div class="dropdown-menu dropdown-menu-right">
@@ -531,12 +531,12 @@
 							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>ALUMNOS</span></a>
 							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
 								<li class="nav-item"><a href="form_layout_registroalumnos.html" class="nav-link">Registro</a></li>
-								<!--li class="nav-item"><a>href="form_layout_vertical_styled.html" class="nav-link disabled">Custom styles <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>-->
 								<li class="nav-item-divider"></li>
 								<li class="nav-item"><a href="form_layout_editaralumno.html" class="nav-link">Editar</a></li>
 								<li class="nav-item-divider"></li>
-								<li class="nav-item"><a href=table_basic.html " class="nav-link">Visualizar</a></li>
-								
+								<li class="nav-item"><a href=datatable_visualizar_alumnos.html " class="nav-link">Visualizar</a></li>
+								<li class="nav-item-divider"></li>
+								<li class="nav-item"><a href=form_layout_eliminar_alumno.html " class="nav-link">Eliminar</a></li>
 							</ul>
 						</li>
 						<li class="nav-item nav-item-submenu">
@@ -546,7 +546,8 @@
 								<!--li class="nav-item"><a>href="form_layout_vertical_styled.html" class="nav-link disabled">Custom styles <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li>-->
 								<li class="nav-item-divider"></li>
 								<li class="nav-item"><a href="form_layout_editarmaestro.html" class="nav-link">Editar</a></li>
-								<li class="nav-item"><a href=table_basic_maes.html " class="nav-link">Visualizar</a></li>
+								<li class="nav-item"><a href=datatable_visualizar_maestros.html " class="nav-link">Visualizar</a></li>
+								<li class="nav-item"><a href=form_layout_eliminar_Maestros.html " class="nav-link">Eliminar</a></li>
 								<!--li class="nav-item"><ahref="form_layout_horizontal_styled.html" class="nav-link disabled">Custom styles <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li-->
 							</ul>
 						</li>
@@ -580,6 +581,18 @@
 								<li class="nav-item-divider"></li>
 								<li class="nav-item"><a href="form_layout_editarpagos.html" class="nav-link">Editar</a></li>
 								<!--li class="nav-item"><ahref="form_layout_horizontal_styled.html" class="nav-link disabled">Custom styles <span class="badge bg-transparent align-self-center ml-auto">Coming soon</span></a></li-->
+							</ul>
+						</li>
+						<li class="nav-item nav-item-submenu">
+							<a href="#" class="nav-link"><i class="icon-insert-template"></i> <span>TUTORIAS</span></a>
+							<ul class="nav nav-group-sub" data-submenu-title="Form layouts">
+								<li class="nav-item"><a href="form_layout_registrotutorias.html" class="nav-link">Añadir</a></li>
+								<li class="nav-item-divider"></li>
+								<li class="nav-item"><a href="form_layout_editartutorias.html" class="nav-link">Editar</a></li>
+								<li class="nav-item-divider"></li>
+								<li class="nav-item"><a href=datatable_visualizar_alumnos.html " class="nav-link">Visualizar</a></li>
+								<li class="nav-item-divider"></li>
+								
 							</ul>
 						</li>
 
@@ -1259,48 +1272,43 @@
 			<div class="page-header page-header-light">
 				<div class="page-header-content header-elements-md-inline">
 					<div class="page-title d-flex">
-						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">Home</span> - Dashboard</h4>
+						<h4><i class="icon-arrow-left52 mr-2"></i> <span class="font-weight-semibold">INICIO</span> - Index</h4>
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
-					<div class="header-elements d-none">
-						<div class="d-flex justify-content-center">
-							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-bars-alt text-primary"></i><span>Statistics</span></a>
-							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calculator text-primary"></i> <span>Invoices</span></a>
-							<a href="#" class="btn btn-link btn-float text-default"><i class="icon-calendar5 text-primary"></i> <span>Schedule</span></a>
-						</div>
-					</div>
+					
 				</div>
 
 				<div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
 					<div class="d-flex">
 						<div class="breadcrumb">
-							<a href="index2.php.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Home</a>
-							<span class="breadcrumb-item active">Dashboard</span>
+							<a href="index2.php.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i> Inicio</a>
+							<span class="breadcrumb-item active">Index</span>
 						</div>
 
 						<a href="#" class="header-elements-toggle text-default d-md-none"><i class="icon-more"></i></a>
 					</div>
 
+
 					<div class="header-elements d-none">
 						<div class="breadcrumb justify-content-center">
 							<a href="#" class="breadcrumb-elements-item">
 								<i class="icon-comment-discussion mr-2"></i>
-								Support
+								Soporte
 							</a>
 
 							<div class="breadcrumb-elements-item dropdown p-0">
 								<a href="#" class="breadcrumb-elements-item dropdown-toggle" data-toggle="dropdown">
 									<i class="icon-gear mr-2"></i>
-									Settings
+									Herramientas
 								</a>
 
 								<div class="dropdown-menu dropdown-menu-right">
-									<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Account security</a>
-									<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Analytics</a>
-									<a href="#" class="dropdown-item"><i class="icon-accessibility"></i> Accessibility</a>
+									<a href="#" class="dropdown-item"><i class="icon-user-lock"></i> Seguridad de la cuenta</a>
+									<a href="#" class="dropdown-item"><i class="icon-statistics"></i> Estadisticas</a>
+									<a href="#" class="dropdown-item"><i class="icon-accessibility"></i> Accesibilidad</a>
 									<div class="dropdown-divider"></div>
-									<a href="#" class="dropdown-item"><i class="icon-gear"></i> All settings</a>
+									<a href="#" class="dropdown-item"><i class="icon-gear"></i> Todas las Herramientas</a>
 								</div>
 							</div>
 						</div>
@@ -1317,66 +1325,7 @@
 				<div class="row">
 					<div class="col-xl-7">
 
-						<!-- Traffic sources -->
-						<!--div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Traffic sources</h6>
-								<div class="header-elements">
-									<div class="form-check form-check-right form-check-switchery form-check-switchery-sm">
-										<label class="form-check-label">
-											Live update:
-											<input type="checkbox" class="form-input-switchery" checked data-fouc>
-										</label>
-
-									</div>
-								</div>
-							</div>
-<div>
-	<img src="images/logoupv.png">
-</div>
-							<div class="card-body py-0">
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-teal text-teal rounded-round border-2 btn-icon mr-3">
-												<i class="icon-plus3"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">New visitors</div>
-												<span class="text-muted">2,349 avg</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="new-visitors"></div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-warning-400 text-warning-400 rounded-round border-2 btn-icon mr-3">
-												<i class="icon-watch2"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">New sessions</div>
-												<span class="text-muted">08:20 avg</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="new-sessions"></div>
-									</div>
-
-									<div class="col-sm-4">
-										<div class="d-flex align-items-center justify-content-center mb-2">
-											<a href="#" class="btn bg-transparent border-indigo-400 text-indigo-400 rounded-round border-2 btn-icon mr-3">
-												<i class="icon-people"></i>
-											</a>
-											<div>
-												<div class="font-weight-semibold">Total online</div>
-												<span class="text-muted"><span class="badge badge-mark border-success mr-2"></span> 5,378 avg</span>
-											</div>
-										</div>
-										<div class="w-75 mx-auto mb-3" id="total-online"></div>
-									</div>
-								</div>
-							</div>
-
+						
 							<div class="chart position-relative" id="traffic-sources"></div>
 						</div-->
 						<div>
@@ -1389,49 +1338,7 @@
 
 					<div class="col-xl-5">
 
-						<!-- Sales stats -->
-						<div class="card">
-							<div class="card-header header-elements-inline">
-								<h6 class="card-title">Sales statistics</h6>
-								<div class="header-elements">
-									<select class="form-control" id="select_date" data-fouc>
-										<option value="val1">June, 29 - July, 5</option>
-										<option value="val2">June, 22 - June 28</option>
-										<option value="val3" selected>June, 15 - June, 21</option>
-										<option value="val4">June, 8 - June, 14</option>
-									</select>
-			                	</div>
-							</div>
-
-							<div class="card-body py-0">
-								<div class="row text-center">
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">5,689</h5>
-											<span class="text-muted font-size-sm">new orders</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">32,568</h5>
-											<span class="text-muted font-size-sm">this month</span>
-										</div>
-									</div>
-
-									<div class="col-4">
-										<div class="mb-3">
-											<h5 class="font-weight-semibold mb-0">$23,464</h5>
-											<span class="text-muted font-size-sm">expected profit</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="chart mb-2" id="app_sales"></div>
-							<div class="chart" id="monthly-sales-stats"></div>
-						</div>
-						<!-- /sales stats -->
+						
 
 					</div>
 				</div>
@@ -1442,10 +1349,13 @@
 				<div class="row">
 					<div class="col-xl-8">
 
+
+
+
 						<!-- Marketing campaigns -->
 						<div class="card">
 							<div class="card-header header-elements-sm-inline">
-								<h6 class="card-title">Marketing campaigns</h6>
+								<h6 class="card-title">Indices de Rendimiento</h6>
 								<div class="header-elements">
 									<span class="badge bg-success badge-pill">28 active</span>
 									<div class="list-icons ml-3">
@@ -1467,7 +1377,7 @@
 								<div class="d-flex align-items-center mb-3 mb-sm-0">
 									<div id="campaigns-donut"></div>
 									<div class="ml-3">
-										<h5 class="font-weight-semibold mb-0">38,289 <span class="text-success font-size-sm font-weight-normal"><i class="icon-arrow-up12"></i> (+16.2%)</span></h5>
+										<h5 class="font-weight-semibold mb-0">3,289 <span class="text-success font-size-sm font-weight-normal"><i class="icon-arrow-up12"></i> (+16.2%)</span></h5>
 										<span class="badge badge-mark border-success mr-1"></span> <span class="text-muted">May 12, 12:30 am</span>
 									</div>
 								</div>
@@ -1480,9 +1390,7 @@
 									</div>
 								</div>
 
-								<div>
-									<a href="#" class="btn bg-indigo-300"><i class="icon-statistics mr-2"></i> View report</a>
-								</div>
+								
 							</div>
 
 							<div class="table-responsive">
@@ -1498,7 +1406,7 @@
 										</tr>
 									</thead>
 									<tbody>
-										<tr class="table-active table-border-double">
+										<!--tr class="table-active table-border-double">
 											<td colspan="5">Today</td>
 											<td class="text-right">
 												<span class="progress-meter" id="today-progress" data-progress="30"></span>
@@ -1627,9 +1535,9 @@
 															04:00 - 05:00
 														</div>
 													</div>
-												</div>
+												</div-->
 											</td>
-											<td><span class="text-muted">Deluxe</span></td>
+											<!--td><span class="text-muted">Deluxe</span></td>
 											<td><span class="text-success-600"><i class="icon-stats-growth2 mr-2"></i> 2.78%</span></td>
 											<td><h6 class="font-weight-semibold mb-0">$7,467</h6></td>
 											<td><span class="badge bg-grey-400">On hold</span></td>
@@ -1647,9 +1555,9 @@
 													</div>
 												</div>
 											</td>
-										</tr>
+										</tr-->
 
-										<tr class="table-active table-border-double">
+										<!--tr class="table-active table-border-double">
 											<td colspan="5">Yesterday</td>
 											<td class="text-right">
 												<span class="progress-meter" id="yesterday-progress" data-progress="65"></span>
@@ -1690,8 +1598,8 @@
 													</div>
 												</div>
 											</td>
-										</tr>
-										<tr>
+										</tr-->
+										<!--tr>
 											<td>
 												<div class="d-flex align-items-center">
 													<div class="mr-3">
@@ -1743,7 +1651,7 @@
 														</div>
 													</div>
 												</div>
-											</td>
+											</td-->
 											<td><span class="text-muted">Teamable</span></td>
 											<td><span class="text-danger"><i class="icon-stats-decline2 mr-2"></i> 9.83%</span></td>
 											<td><h6 class="font-weight-semibold mb-0">$8,350</h6></td>
